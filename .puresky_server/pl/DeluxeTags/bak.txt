@@ -1,0 +1,28 @@
+  憨憨:
+    order: 2
+    tag: '&b[&e憨憨&b]'
+    description: '&f'
+  远坂家的大女婿:
+    order: 3
+    tag: '&b[&e远坂家的大女婿&b]'
+    description: '&f'
+  bug发现者/反对党:
+    order: 4
+    tag: '&b[&ebug发现者/反对党&b]'
+    description: '&f'
+  屑腐竹:
+    order: 5
+    tag: '&b[&e屑腐竹&b]'
+    description: '&f'
+  赞助者:
+    order: 6
+    tag: '&b[&e赞助者&b]'
+    description: '&f'
+  先行者:
+    order: 7
+    tag: '&b[&e先行者&b]'
+    description: '&f'
+  薇尔莉特·伊芙加登:
+    order: 8
+    tag: '&b[&e薇尔莉特·伊芙加登&b]'
+    description: '&f'
