@@ -1,0 +1,24 @@
+Status: true
+Type: NORMAL
+Amount: 3
+Title: roughanddai的投票
+Description:
+- 服主懒狗
+Choice:
+  ACCEPT: 成
+  REFUSE: 不成
+  NEUTRAL: 害行
+Starter: roughanddai
+StartTime: 1586491383933
+Duration: 1d
+Participant:
+  ACCEPT:
+    Yerawro: §7§o暂未发表原因.
+    fff: §7§o暂未发表原因.
+    Fiase: §7§o暂未发表原因.
+    roughanddai: §7§o暂未发表原因.
+AutoCast:
+- kick roughanddai
+Display:
+  Pass: 'yes'
+  Reject: 'no'

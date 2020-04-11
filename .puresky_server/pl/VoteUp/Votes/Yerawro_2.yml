@@ -1,0 +1,24 @@
+Status: false
+Type: NORMAL
+Amount: 0
+Title: Yerawro要午睡
+Description:
+- 如题
+Choice:
+  ACCEPT: '&a&l同意'
+  REFUSE: '&c&l反对'
+  NEUTRAL: '&e&l中立'
+Starter: Yerawro
+StartTime: 1586491460283
+Duration: 2m
+Participant:
+  REFUSE:
+    fff: §7§o暂未发表原因.
+    Fiase: §7§o暂未发表原因.
+  ACCEPT:
+    MeaWallet: §7§o暂未发表原因.
+    roughanddai: 人要休息的啊
+AutoCast: []
+Display:
+  Pass: '&a&l已通过'
+  Reject: '&c&l未通过'
