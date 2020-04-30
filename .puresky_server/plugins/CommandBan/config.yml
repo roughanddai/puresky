@@ -1,0 +1,54 @@
+#该配置的作用是在世界"world"中禁用所有以"/example "开头的指令，除非玩家拥有"example.use"权限
+#该名称无要求，不重复即可
+kill:
+  command: 'kill .*'
+  worlds:
+    - 'world'
+  permission: 'kill.use'
+  op: false
+  message: '&4%player_name%你不能执行这个指令，需要权限: &e%permission%！'
+spawn:
+  command: 'mv.spawn'
+  worlds:
+    - 'world'
+    - 'old'
+    - 'world_nether'
+    - 'world_the_end'
+    - 'old_nether'
+    - 'old_the_end'
+  permission: 'mv.spawn'
+  op: false
+  message: '&4%player_name%你不能执行这个指令，需要权限: &e%permission%！'
+2spawn:
+  command: 'mvinv.*'
+  worlds:
+    - 'world'
+    - 'old'
+    - 'world_nether'
+    - 'world_the_end'
+    - 'old_nether'
+    - 'old_the_end'
+  permission: 'mvinv.*'
+  op: false
+  message: '&4%player_name%你不能执行这个指令，需要权限: &e%permission%！'
+tp:
+  command: 'mv.tp.*'
+  worlds:
+    - 'world'
+    - 'old'
+    - 'world_the_end'
+    - 'world_nether'  
+    - 'old_the_end'    
+    - 'old_nether'  
+  permission: 'mv.tp.world'
+  op: false
+  message: '&4%player_name%你不能执行这个指令，需要权限: &e%permission%！'
+mvp create:
+  command: 'mvp.create'
+  worlds:
+  - 'world_nether'
+  - 'world_the_end'
+  - 'old_the_end' 
+  permission: 'mvp.create'
+  op: false
+  message: '&4%player_name%你不能执行这个指令，需要权限: &e%permission%！'

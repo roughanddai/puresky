@@ -1,0 +1,21 @@
+Status: false
+Type: NORMAL
+Amount: 0
+Title: tick 腐竹
+Description: []
+Choice:
+  NEUTRAL: '&e&l中立'
+  REFUSE: '&c&l反对'
+  ACCEPT: '&a&l同意'
+Starter: Fiase
+StartTime: 1587218590870
+Duration: 1d
+Participant:
+  REFUSE:
+    roughanddai: §7§o暂未发表原因.
+  ACCEPT:
+    XinianCc: §7§o暂未发表原因.
+AutoCast: []
+Display:
+  Pass: '&a&l已通过'
+  Reject: '&c&l未通过'

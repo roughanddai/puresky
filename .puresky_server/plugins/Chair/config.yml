@@ -1,0 +1,50 @@
+# ----------------------------------------------------------------------------------------------------------------------
+# Chair, version 1.4 -  Configuration file.
+# .
+# You will find an explanation of all parameters here:
+# https://github.com/arboriginal/Chair/blob/master/src/main/resources/config.yml
+# ----------------------------------------------------------------------------------------------------------------------
+
+onlyEmptyHand: false
+dirBlocksFace: true
+maxDistToBlock: 2
+minBlocksAbove: 1
+allowedBlocks:
+- ACACIA_STAIRS
+- ANDESITE_STAIRS
+- BIRCH_STAIRS
+- BRICK_STAIRS
+- COBBLESTONE_STAIRS
+- DARK_OAK_STAIRS
+- DARK_PRISMARINE_STAIRS
+- DIORITE_STAIRS
+- END_STONE_BRICK_STAIRS
+- GRANITE_STAIRS
+- JUNGLE_STAIRS
+- MOSSY_COBBLESTONE_STAIRS
+- MOSSY_STONE_BRICK_STAIRS
+- NETHER_BRICK_STAIRS
+- OAK_STAIRS
+- POLISHED_ANDESITE_STAIRS
+- POLISHED_DIORITE_STAIRS
+- POLISHED_GRANITE_STAIRS
+- PRISMARINE_BRICK_STAIRS
+- PRISMARINE_STAIRS
+- PURPUR_STAIRS
+- QUARTZ_STAIRS
+- RED_NETHER_BRICK_STAIRS
+- RED_SANDSTONE_STAIRS
+- SANDSTONE_STAIRS
+- SMOOTH_QUARTZ_STAIRS
+- SMOOTH_RED_SANDSTONE_STAIRS
+- SMOOTH_SANDSTONE_STAIRS
+- SPRUCE_STAIRS
+- STONE_BRICK_STAIRS
+- STONE_STAIRS
+heightAdjustments:
+  default: 0.8
+  cake: 0.3
+  detector: 0.2
+  flats: -0.2
+  slabs: 0.3
+  traps: -0.1

@@ -1,0 +1,29 @@
+Status: false
+Type: NORMAL
+Amount: 1
+Title: kick roughanddai
+Description:
+- nothing
+Choice:
+  ACCEPT: '&a&l同意'
+  REFUSE: '&c&l反对'
+  NEUTRAL: '&e&l中立'
+Starter: roughanddai
+StartTime: 1586492557014
+Duration: 5m
+Participant:
+  ACCEPT:
+    roughanddai: §7§o暂未发表原因.
+    yangmuji: §7§o暂未发表原因.
+    Fiase: §7§o暂未发表原因.
+    qiu_fen_: §7§o暂未发表原因.
+  NEUTRAL:
+    fff: §7§o暂未发表原因.
+    xuan_YA: §7§o暂未发表原因.
+  REFUSE:
+    unga: §7§o暂未发表原因.
+AutoCast:
+- kick roughanddai
+Display:
+  Pass: '&a&l已通过'
+  Reject: '&c&l未通过'

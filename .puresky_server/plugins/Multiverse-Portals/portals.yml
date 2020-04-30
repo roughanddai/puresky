@@ -1,0 +1,159 @@
+portals:
+  '1':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 49.0,68.0,9.0:49.0,73.0,13.0
+    world: old
+    destination: p:2
+  '2':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 6.0,72.0,-5.0:6.0,76.0,-2.0
+    world: world
+    destination: p:1
+  '3':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: -15.0,78.0,-246.0:-15.0,82.0,-242.0
+    world: world
+    destination: p:4
+  '4':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: -94.0,77.0,34.0:-94.0,81.0,38.0
+    world: old
+    destination: p:3
+  '5':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: -2579.0,54.0,850.0:-2579.0,58.0,854.0
+    world: world
+    destination: p:6
+  '6':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 245.0,73.0,462.0:248.0,77.0,462.0
+    world: old
+    destination: p:5
+  '7':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 11506.0,67.0,12469.0:11510.0,72.0,12469.0
+    world: world
+    destination: p:8
+  '8':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 11389.0,68.0,12592.0:11392.0,73.0,12592.0
+    world: old
+    destination: p:7
+  '9':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: -1668.0,35.0,-28.0:-1665.0,39.0,-28.0
+    world: world
+    destination: p:10
+  '10':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: -1600.0,64.0,-123.0:-1597.0,69.0,-123.0
+    world: old
+    destination: p:9
+  '11':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 7573.0,70.0,1212.0:7576.0,74.0,1212.0
+    world: world
+    destination: p:12
+  '12':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 7573.0,65.0,1211.0:7573.0,69.0,1214.0
+    world: old
+    destination: p:11
+  '13':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 124.0,67.0,-152.0:124.0,71.0,-149.0
+    world: world
+  '14':
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 119.0,79.0,-159.0:122.0,83.0,-159.0
+    world: old
+  end1:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: 1065.0,63.0,30.0:1065.0,67.0,33.0
+    world: old_the_end
+    destination: p:end2
+  end2:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: roughanddai
+    location: -15.0,63.0,-1.0:-15.0,67.0,2.0
+    world: old_the_end
+    destination: p:end1

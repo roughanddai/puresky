@@ -1,0 +1,14 @@
+18.04.2020 - 20:21:59 - [TAB v2.7.3] An error occurred when setting placeholder %deluxetags_tag% for Callin
+18.04.2020 - 20:21:59 - java.lang.NullPointerException: null
+18.04.2020 - 20:21:59 -        at me.neznamy.tab.shared.placeholders.PlayerPlaceholder.getValue(PlayerPlaceholder.java:23)
+18.04.2020 - 20:21:59 -        at me.neznamy.tab.shared.placeholders.Placeholder.set(Placeholder.java:31)
+18.04.2020 - 20:21:59 -        at me.neznamy.tab.shared.Property.isUpdateNeeded(Property.java:91)
+18.04.2020 - 20:21:59 -        at me.neznamy.tab.shared.ITabPlayer.updateTeamData(ITabPlayer.java:420)
+18.04.2020 - 20:21:59 -        at me.neznamy.tab.shared.ITabPlayer.updateTeam(ITabPlayer.java:194)
+18.04.2020 - 20:21:59 -        at me.neznamy.tab.shared.features.NameTag16$1.run(NameTag16.java:19)
+18.04.2020 - 20:21:59 -        at me.neznamy.tab.shared.CPUManager$4.run(CPUManager.java:101)
+18.04.2020 - 20:21:59 -        at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+18.04.2020 - 20:21:59 -        at java.util.concurrent.FutureTask.run(Unknown Source)
+18.04.2020 - 20:21:59 -        at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+18.04.2020 - 20:21:59 -        at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+18.04.2020 - 20:21:59 -        at java.lang.Thread.run(Unknown Source)

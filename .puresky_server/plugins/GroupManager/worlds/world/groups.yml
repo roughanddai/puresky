@@ -1,0 +1,104 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Moderator:
+    default: false
+    permissions: []
+    inheritance:
+    - builder
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    - g:vanish_moderator
+    info:
+      build: true
+      prefix: '&5'
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - -vanish.*
+    - '*'
+    inheritance:
+    - admin
+    info:
+      build: true
+      prefix: '&4'
+      suffix: ''
+  Builder:
+    default: false
+    permissions: []
+    inheritance:
+    - default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      build: true
+      prefix: '&2'
+      suffix: ''
+  Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - moderator
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    - g:vanish_admin
+    info:
+      build: true
+      prefix: '&c'
+      suffix: ''
+  Default:
+    default: true
+    permissions:
+    - -bukkit.command.kill
+    - deluxetags.gui
+    - multiverse.access.5
+    - multiverse.access.6
+    - multiverse.access.old
+    - multiverse.access.world
+    - multiverse.portal.acces.13
+    - multiverse.portal.acces.14
+    - multiverse.portal.acces.15
+    - multiverse.portal.access.1
+    - multiverse.portal.access.10
+    - multiverse.portal.access.11
+    - multiverse.portal.access.12
+    - multiverse.portal.access.2
+    - multiverse.portal.access.3
+    - multiverse.portal.access.4
+    - multiverse.portal.access.5
+    - multiverse.portal.access.6
+    - multiverse.portal.access.7
+    - multiverse.portal.access.8
+    - multiverse.portal.access.9
+    - multiverse.portal.access.end1
+    - multiverse.portal.access.end2
+    - multiverse.teleport.self.*
+    - zeroplayer.admin
+    - zeroplayer.info
+    - zeroplayer.play
+    - zeroplayer.publicinfo
+    - zeroplayer.publicplay
+    - zeroplayer.publicstop
+    - zeroplayer.stop
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      build: false
+      prefix: '&e'
+      suffix: ''

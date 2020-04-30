@@ -1,0 +1,19 @@
+Status: false
+Type: NORMAL
+Amount: 0
+Title: kill all
+Description: []
+Choice:
+  ACCEPT: '&a&l同意'
+  REFUSE: '&c&l反对'
+  NEUTRAL: '&e&l中立'
+Starter: Fiase
+StartTime: 1586493147412
+Duration: 1d
+Participant:
+  ACCEPT:
+    Yerawro: §7§o暂未发表原因.
+AutoCast: []
+Display:
+  Pass: '&a&l已通过'
+  Reject: '&c&l未通过'

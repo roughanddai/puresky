@@ -1,0 +1,130 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+change-nametag-prefix-suffix: true
+change-tablist-prefix-suffix: true
+enable-header-footer: true
+
+nametag-refresh-interval-milliseconds: 1000
+tablist-refresh-interval-milliseconds: 1000
+header-footer-refresh-interval-milliseconds: 100
+
+header:
+  - "&7"
+  -  "&7欢迎您，&b%player_name%&f来到puresky服务器"
+  -  "&7目前在线人数&2%server_online%人"
+  -  "&7"
+footer:
+  -  "&7"
+  -  "&e您的称号是&r:%deluxetags_tag%"
+  -  "&f您的丢人次数{死亡次数}:&e%statistic_deaths%&f次"
+  -  "&f距离上次死亡已经过了:&e%statistic_minutes_since_death%&f分钟"
+  -  "&f您总共挖了:"
+  -  "&f%statistic_mine_block%方块"
+  -  "&c目前服务器的运行状态{20为满}:&9%server_tps_1%"
+  -  "&e目前服务器总共实体数目{极其影响性能}:&5%server_total_entities%"
+  -  "&3您的总共游戏时间:&r%statistic_hours_played%小时"
+  -  "&3您退出游戏&f%statistic_leave_game%&f次了"
+  -  "&c加QQ群&e913675863&c来获得服务器最新动态"
+  -  "&7"
+
+tablist-objective: NONE
+tablist-objective-custom-value: "%deluxetags_tag% %player_name%"
+group-sorting-priority-list:
+  - owner
+  - admin
+  - mod
+  - helper
+  - builder
+  - premium
+  - player
+  - default
+Groups:
+  Owner:
+    tabprefix: "%deluxetags_tag% "
+    tagprefix: "%deluxetags_tag% "
+  Admin:
+    tabprefix: "%deluxetags_tag% "
+    tagprefix: "%deluxetags_tag% "
+  Player:
+    tabprefix: "%deluxetags_tag% "
+    tagprefix: "%deluxetags_tag% "
+  example_group:
+    header:
+      - "This is an example of per-group header/footer"
+    footer:
+      - "applied to a group"
+  _OTHER_:
+    tabprefix: "%deluxetags_tag%"
+    tagprefix: "%deluxetags_tag%"
+    tabsuffix: ""
+    tagsuffix: ""
+    customtabname: ""
+    customtagname: "%deluxetags_tag%"
+
+Users:
+  _NEZNAMY_:
+    tabprefix: "&6&lTAB Author &a"
+    tagprefix: "&6&lTAB &r&a"
+    abovename: "&bOh look, 3 lines of text !"
+    belowname: "&eThere's only one plugin out there supporting it"
+
+belowname:
+  enabled: true
+  refresh-interval-milliseconds: 200
+  number: "%health%"
+  text: "理智值"
+
+enable-collision: true
+revert-collision-rule-in-worlds:
+  - revertedworld
+do-not-move-spectators: false
+unlimited-nametag-prefix-suffix-mode:
+  enabled: false
+  modify-npc-names: false
+
+per-world-settings:
+  world1:
+    header:
+      - "an example of world with custom"
+    footer:
+      - "header/footer and prefix/suffix"
+    Groups:
+      Owner:
+        tabprefix: "&0&l[&a&lOwner&0&l] &a"
+        tagprefix: "&2&lOwner &a"
+  world2-world3:
+    header:
+      - "This is a shared header for"
+      - "world2 and world3"
+placeholders:
+  afk-yes: " &4*&4&lAFK&4*&r"
+  afk-no: ""
+  date-format: "dd.MM.yyyy"
+  time-format: "[HH:mm:ss / h:mm a]"
+  time-offset: 0
+  remove-strings:
+    - "[]"
+    - "< >"
+rank-aliases:
+  Admin: "&4&lADMIN"
+  Mod: "&b&lMOD"
+  Premium: "&6&lPREMIUM"
+  Ultra: "&b&lULTRA"
+  Legend: "&a&lLEGEND"
+  Titan: "&c&lTITAN"
+  Youtuber: "&c&lYOUTUBE"
+  _OTHER_: "&7No Rank"
+  
+disable-features-in-worlds:
+  header-footer:
+    - disabledworld
+  tablist-names:
+    - disabledworld
+  nametag:
+    - disabledworld
+  tablist-objective:
+    - disabledworld
+  bossbar:
+    - disabledworld
+  belowname:
+    - disabledworld

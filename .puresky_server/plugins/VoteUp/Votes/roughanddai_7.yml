@@ -1,0 +1,19 @@
+Status: false
+Type: NORMAL
+Amount: 0
+Title: roughanddai的投票
+Description: []
+Choice:
+  NEUTRAL: '&e&l中立'
+  REFUSE: '&c&l反对'
+  ACCEPT: '&a&l同意'
+Starter: roughanddai
+StartTime: 1586960740842
+Duration: 1d
+Participant:
+  ACCEPT:
+    roughanddai: §7§o暂未发表原因.
+AutoCast: []
+Display:
+  Pass: '&a&l已通过'
+  Reject: '&c&l未通过'
