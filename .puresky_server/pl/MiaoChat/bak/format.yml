@@ -1,8 +1,0 @@
-#当前文件为定义格式的基础文件
-player: 
-  text: '&7%player_name%&f'
-  click: 
-    type: 'SUGGEST'
-    command: '/tell %player_name%'
-tags:
-  text:'&e%deluxetags_tag%'
