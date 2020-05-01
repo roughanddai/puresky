@@ -63,16 +63,16 @@ world-settings:
     view-distance: default
     wither-spawn-sound-radius: 0
     enable-zombie-pigmen-portal-spawns: true
-    seed-village: 10387312
-    seed-desert: 14357617
-    seed-igloo: 14357618
-    seed-jungle: 14357619
-    seed-swamp: 14357620
-    seed-monument: 10387313
-    seed-shipwreck: 165745295
-    seed-ocean: 14357621
-    seed-outpost: 165745296
-    seed-slime: 987234911
+    seed-village: 103812
+    seed-desert: 143517
+    seed-igloo: 143618
+    seed-jungle: 143619
+    seed-swamp: 143576
+    seed-monument: 103313
+    seed-shipwreck: 165295
+    seed-ocean: 143621
+    seed-outpost: 1657452
+    seed-slime: 9872349
     dragon-death-sound-radius: 0
     mob-spawn-range: 8
     item-despawn-rate: 6000
