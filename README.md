@@ -9,7 +9,7 @@ puresky服务器的wiki与部分配置信息
   spigot.yml  
   bukkit.yml
   plugins  
-  server.properties
+  server.properties  
 ————————————————————————  
 未来将会上传其他可公开文件夹
 #### 参与贡献
